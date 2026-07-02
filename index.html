@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="theme-color" content="#1e293b" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Chess Attack" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Chess Attack - 国际象棋势力可视化</title>
+    <meta
+      name="description"
+      content="在棋盘上实时显示双方势力范围，让看不见的局面变成可见的视觉直觉。"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Chess Attack - 国际象棋势力可视化" />
+    <meta
+      property="og:description"
+      content="在棋盘上实时显示双方势力范围，让看不见的局面变成可见的视觉直觉。"
+    />
+    <meta property="og:image" content="./og.png" />
+    <script type="module" crossorigin src="./assets/index-C-9gA57p.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-1J6QIUky.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch((err) => {
+            console.warn('SW registration failed:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

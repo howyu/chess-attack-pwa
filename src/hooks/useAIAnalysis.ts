@@ -30,7 +30,6 @@ const analyzePosition = (
   currentTurn: PieceColor,
   isInCheck: PieceColor | null,
   isGameOver: boolean,
-  moves: { from: { row: number; col: number }; to: { row: number; col: number }; piece: { type: PieceType; color: PieceColor }; capturedPiece?: { type: PieceType; color: PieceColor } }[],
   moveCount: number
 ): AIAnalysis => {
   // 1. 子力评估
@@ -210,7 +209,6 @@ export const useAIAnalysis = () => {
           currentTurn,
           isInCheck,
           isGameOver,
-          moves,
           moves.length
         );
         setAnalysis(result);

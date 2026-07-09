@@ -1,6 +1,10 @@
 MIT License
 
 Copyright (c) 2024 Chess Attack Contributors
+Copyright (c) 2026 howyu
+
+本仓库基于 razrinn/chess-attack (https://github.com/razrinn/chess-attack) 二次开发，原项目同样采用 MIT License。
+上述版权声明均须包含在所有副本或重要部分中。
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

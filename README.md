@@ -1,6 +1,18 @@
 # Chess Attack
 
+> **国际象棋势力范围可视化训练板** —— 在棋盘上实时显示双方势力范围，让看不见的局面变成可见的视觉直觉。
+
 This is a visualization of attacked chess squares using a fully functional chess game web application generated entirely through Large Language Model (LLM) interactions.
+
+## 📄 开源引用 / Attribution
+
+本项目基于 [razrinn/chess-attack](https://github.com/razrinn/chess-attack) **二次开发**，原项目采用 **MIT License**。
+
+- 原项目：`razrinn/chess-attack` — <https://github.com/razrinn/chess-attack>
+- 原版权声明：Copyright (c) 2024 Chess Attack Contributors（MIT）
+- 本分支新增：双方势力范围三色覆盖（蓝=白控 / 红=黑控 / 紫=争夺）、AI 局面点评、PWA 离线支持等
+
+根据 MIT 协议，本仓库完整保留原项目的许可证与版权声明（见 [LICENSE.md](./LICENSE.md)）。
 
 ## 🤖 LLM Attribution
 
